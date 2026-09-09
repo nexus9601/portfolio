@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thanush Kodi N — Data Science & Data Engineering</title>
+  <meta name="description" content="Portfolio of Thanush Kodi N — B.Tech CSE (Data Science & Data Engineering) student at LPU. Skilled in Python, SQL, Power BI, Tableau, and data-driven problem solving." />
+  <meta name="keywords" content="Thanush Kodi N, Data Science, Data Engineering, Data Analytics, Python, SQL, Power BI, Tableau, portfolio, LPU" />
+  <meta name="author" content="Thanush Kodi N" />
+  <meta property="og:title" content="Thanush Kodi N — Data Science & Data Engineering" />
+  <meta property="og:description" content="B.Tech CSE student specializing in Data Science and Data Engineering. Building data-driven solutions through analytics, visualization, and modern technologies." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION
+  ============================================================ -->
+  <header class="nav-header" id="nav-header">
+    <nav class="nav-container" role="navigation" aria-label="Main navigation">
+      <a href="#home" class="nav-brand" aria-label="Thanush Kodi N — Home">
+        <span class="brand-initials">TK</span>
+        <span class="brand-name">Thanush Kodi N</span>
+      </a>
+
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+        <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+        <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+        <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+        <li><a href="#training" class="nav-link" data-section="training">Training</a></li>
+        <li><a href="#achievements" class="nav-link" data-section="achievements">Achievements</a></li>
+        <li><a href="#education" class="nav-link" data-section="education">Education</a></li>
+        <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="https://drive.google.com/file/d/1eKZJCaDJJCckzZAoW4MF86bwjq9beMcL/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" id="view-resume-btn" aria-label="View Resume">View Resume</a>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle mobile menu" aria-expanded="false">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <ul class="mobile-nav-links" role="list">
+        <li><a href="#home" class="mobile-nav-link" data-section="home">Home</a></li>
+        <li><a href="#about" class="mobile-nav-link" data-section="about">About</a></li>
+        <li><a href="#skills" class="mobile-nav-link" data-section="skills">Skills</a></li>
+        <li><a href="#projects" class="mobile-nav-link" data-section="projects">Projects</a></li>
+        <li><a href="#training" class="mobile-nav-link" data-section="training">Training & Certifications</a></li>
+        <li><a href="#achievements" class="mobile-nav-link" data-section="achievements">Achievements</a></li>
+        <li><a href="#education" class="mobile-nav-link" data-section="education">Education</a></li>
+        <li><a href="#contact" class="mobile-nav-link" data-section="contact">Contact</a></li>
+        <li><a href="https://drive.google.com/file/d/1eKZJCaDJJCckzZAoW4MF86bwjq9beMcL/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm mobile-resume-btn">View Resume</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============================================================
+         HERO SECTION
+    ============================================================ -->
+    <section class="section hero-section" id="home" aria-labelledby="hero-heading">
+      <div class="container hero-container">
+        <div class="hero-content reveal-up">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            B.Tech CSE — Data Science & Data Engineering
+          </div>
+
+          <h1 class="hero-name" id="hero-heading">Thanush Kodi N</h1>
+
+          <p class="hero-headline">Data Science &amp; Data Engineering Student</p>
+
+          <p class="hero-statement">
+            Building data-driven solutions through analytics, visualization,
+            Python, SQL, and modern web technologies.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary" id="hero-projects-btn">View My Projects</a>
+            <a href="https://drive.google.com/file/d/1eKZJCaDJJCckzZAoW4MF86bwjq9beMcL/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-outline" id="hero-resume-btn">Download Resume</a>
+          </div>
+
+          <div class="hero-socials" aria-label="Social links">
+            <a href="https://github.com/nexus9601" target="_blank" rel="noopener noreferrer" class="social-link" id="hero-github" aria-label="GitHub">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/thanush-k-296b202bb/" target="_blank" rel="noopener noreferrer" class="social-link" id="hero-linkedin" aria-label="LinkedIn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              LinkedIn
+            </a>
+            <a href="mailto:nallasivamthanush@gmail.com" class="social-link" id="hero-email" aria-label="Email">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              Email
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal-right">
+          <div class="hero-photo-wrapper">
+            <div class="hero-photo-ring">
+              <div class="hero-photo-circle">
+                <img src="img.png" alt="Thanush Kodi N" class="hero-photo" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Scroll indicator -->
+      <div class="scroll-indicator" aria-hidden="true">
+        <span class="scroll-label">Scroll</span>
+        <div class="scroll-arrow">
+          <svg width="16" height="24" viewBox="0 0 16 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8 2v20M2 16l6 6 6-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         ABOUT SECTION
+    ============================================================ -->
+    <section class="section about-section" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-label">About Me</span>
+          <h2 class="section-title" id="about-heading">Who I Am</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text reveal-up">
+            <p class="about-intro">
+              I'm <strong>Thanush Kodi N</strong>, a B.Tech Computer Science and Engineering student
+              specializing in <strong>Data Science and Data Engineering</strong> at
+              Lovely Professional University, Punjab. I'm passionate about turning raw data
+              into meaningful insights and building systems that make data work.
+            </p>
+            <p class="about-body">
+              My focus lies at the intersection of data analysis, visualization, and engineering —
+              working with Python, SQL, Power BI, and Tableau to explore datasets, identify patterns,
+              and communicate findings clearly. I enjoy the full pipeline: from cleaning and
+              preprocessing data to building interactive dashboards and visual narratives.
+            </p>
+            <p class="about-body">
+              Beyond data, I work on web development projects and have a growing interest
+              in cybersecurity fundamentals. I approach every project with an engineering mindset —
+              systematic, iterative, and focused on practical outcomes.
+            </p>
+
+            <div class="about-info-grid">
+              <div class="info-item">
+                <span class="info-label">University</span>
+                <span class="info-value">Lovely Professional University</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Degree</span>
+                <span class="info-value">B.Tech — CSE (DS & DE)</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">CGPA</span>
+                <span class="info-value">7.15</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Since</span>
+                <span class="info-value">August 2024</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Location</span>
+                <span class="info-value">Punjab, India</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Focus</span>
+                <span class="info-value">Data Science, Analytics, Engineering</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-focus-cards reveal-right">
+            <div class="focus-card">
+              <div class="focus-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+              </div>
+              <div class="focus-content">
+                <h3 class="focus-title">Data Analysis</h3>
+                <p class="focus-desc">Exploring datasets with Python, Pandas, and SQL to uncover patterns and actionable insights.</p>
+              </div>
+            </div>
+
+            <div class="focus-card">
+              <div class="focus-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="3" y1="15" x2="21" y2="15"/><line x1="9" y1="3" x2="9" y2="21"/><line x1="15" y1="3" x2="15" y2="21"/></svg>
+              </div>
+              <div class="focus-content">
+                <h3 class="focus-title">Data Visualization</h3>
+                <p class="focus-desc">Building dashboards and visual stories with Power BI, Tableau, and Matplotlib.</p>
+              </div>
+            </div>
+
+            <div class="focus-card">
+              <div class="focus-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+              </div>
+              <div class="focus-content">
+                <h3 class="focus-title">Data Engineering</h3>
+                <p class="focus-desc">Understanding pipelines, data modeling, and tools like Databricks for structured data work.</p>
+              </div>
+            </div>
+
+            <div class="focus-card">
+              <div class="focus-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </div>
+              <div class="focus-content">
+                <h3 class="focus-title">Python & SQL</h3>
+                <p class="focus-desc">Using Python for analysis and scripting; SQL for querying and data manipulation.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         SKILLS SECTION
+    ============================================================ -->
+    <section class="section skills-section" id="skills" aria-labelledby="skills-heading">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-label">Technical Skills</span>
+          <h2 class="section-title" id="skills-heading">Tools &amp; Technologies</h2>
+          <p class="section-subtitle">A working toolkit built through coursework, self-study, and real project experience.</p>
+        </div>
+
+        <div class="skills-grid">
+
+          <div class="skill-category reveal-up">
+            <div class="skill-category-header">
+              <div class="skill-category-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </div>
+              <h3 class="skill-category-title">Languages &amp; Data</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag skill-tag-primary">Python</span>
+              <span class="skill-tag skill-tag-primary">SQL</span>
+              <span class="skill-tag skill-tag-primary">HTML</span>
+              <span class="skill-tag skill-tag-primary">CSS</span>
+              <span class="skill-tag skill-tag-primary">NumPy</span>
+              <span class="skill-tag skill-tag-primary">Pandas</span>
+              <span class="skill-tag skill-tag-primary">Matplotlib</span>
+              <span class="skill-tag skill-tag-muted">Java <span class="skill-note">Basic</span></span>
+              <span class="skill-tag skill-tag-muted">C++ <span class="skill-note">Basic</span></span>
+            </div>
+          </div>
+
+          <div class="skill-category reveal-up" style="--delay: 0.1s">
+            <div class="skill-category-header">
+              <div class="skill-category-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+              </div>
+              <h3 class="skill-category-title">Tools &amp; Platforms</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag skill-tag-primary">Power BI</span>
+              <span class="skill-tag skill-tag-primary">Tableau</span>
+              <span class="skill-tag skill-tag-primary">Excel</span>
+              <span class="skill-tag skill-tag-primary">Databricks</span>
+              <span class="skill-tag skill-tag-primary">Git</span>
+            </div>
+          </div>
+
+          <div class="skill-category reveal-up" style="--delay: 0.2s">
+            <div class="skill-category-header">
+              <div class="skill-category-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
+              <h3 class="skill-category-title">Soft Skills</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag skill-tag-soft">Problem-Solving</span>
+              <span class="skill-tag skill-tag-soft">Team Player</span>
+              <span class="skill-tag skill-tag-soft">Adaptability</span>
+              <span class="skill-tag skill-tag-soft">Creative Thinking</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Skills detail cards -->
+        <div class="skills-detail reveal-up">
+          <div class="skill-detail-card">
+            <div class="skill-detail-icon skill-icon-blue">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3h7v7H3z"/><path d="M14 3h7v7h-7z"/><path d="M14 14h7v7h-7z"/><path d="M3 14h7v7H3z"/></svg>
+            </div>
+            <span class="skill-detail-name">Power BI</span>
+          </div>
+          <div class="skill-detail-card">
+            <div class="skill-detail-icon skill-icon-blue">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+            </div>
+            <span class="skill-detail-name">Tableau</span>
+          </div>
+          <div class="skill-detail-card">
+            <div class="skill-detail-icon skill-icon-green">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <span class="skill-detail-name">Python</span>
+          </div>
+          <div class="skill-detail-card">
+            <div class="skill-detail-icon skill-icon-green">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+            </div>
+            <span class="skill-detail-name">SQL</span>
+          </div>
+          <div class="skill-detail-card">
+            <div class="skill-detail-icon skill-icon-orange">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="3" y1="15" x2="21" y2="15"/><line x1="9" y1="3" x2="9" y2="21"/><line x1="15" y1="3" x2="15" y2="21"/></svg>
+            </div>
+            <span class="skill-detail-name">Pandas</span>
+          </div>
+          <div class="skill-detail-card">
+            <div class="skill-detail-icon skill-icon-orange">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            </div>
+            <span class="skill-detail-name">Matplotlib</span>
+          </div>
+          <div class="skill-detail-card">
+            <div class="skill-detail-icon skill-icon-purple">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+            </div>
+            <span class="skill-detail-name">Databricks</span>
+          </div>
+          <div class="skill-detail-card">
+            <div class="skill-detail-icon skill-icon-slate">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><path d="M13 6h3a2 2 0 0 1 2 2v7"/><line x1="6" y1="9" x2="6" y2="21"/></svg>
+            </div>
+            <span class="skill-detail-name">Git</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         PROJECTS SECTION
+    ============================================================ -->
+    <section class="section projects-section" id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-label">Portfolio</span>
+          <h2 class="section-title" id="projects-heading">Featured Projects</h2>
+          <p class="section-subtitle">Real projects built with real data, real tools, and real outcomes.</p>
+        </div>
+
+        <div class="projects-list">
+
+          <!-- Project 1 -->
+          <article class="project-card reveal-up" aria-labelledby="project1-title">
+            <div class="project-visual project-visual-data">
+              <div class="project-preview-label">Project Preview</div>
+              <svg class="project-preview-svg" viewBox="0 0 420 220" xmlns="http://www.w3.org/2000/svg">
+                <!-- Background grid -->
+                <rect width="420" height="220" fill="#F8FAFC"/>
+                <line x1="0" y1="44" x2="420" y2="44" stroke="#E2E8F0" stroke-width="0.5"/>
+                <line x1="0" y1="88" x2="420" y2="88" stroke="#E2E8F0" stroke-width="0.5"/>
+                <line x1="0" y1="132" x2="420" y2="132" stroke="#E2E8F0" stroke-width="0.5"/>
+                <line x1="0" y1="176" x2="420" y2="176" stroke="#E2E8F0" stroke-width="0.5"/>
+                <line x1="60" y1="0" x2="60" y2="220" stroke="#E2E8F0" stroke-width="0.5"/>
+                <line x1="140" y1="0" x2="140" y2="220" stroke="#E2E8F0" stroke-width="0.5"/>
+                <line x1="220" y1="0" x2="220" y2="220" stroke="#E2E8F0" stroke-width="0.5"/>
+                <line x1="300" y1="0" x2="300" y2="220" stroke="#E2E8F0" stroke-width="0.5"/>
+                <line x1="380" y1="0" x2="380" y2="220" stroke="#E2E8F0" stroke-width="0.5"/>
+
+                <!-- Bars -->
+                <rect x="20" y="60" width="32" height="140" rx="3" fill="#2563EB" opacity="0.85"/>
+                <rect x="72" y="40" width="32" height="160" rx="3" fill="#2563EB" opacity="0.75"/>
+                <rect x="124" y="80" width="32" height="120" rx="3" fill="#2563EB" opacity="0.65"/>
+                <rect x="176" y="50" width="32" height="150" rx="3" fill="#2563EB" opacity="0.55"/>
+                <rect x="228" y="90" width="32" height="110" rx="3" fill="#2563EB" opacity="0.45"/>
+                <rect x="280" y="70" width="32" height="130" rx="3" fill="#2563EB" opacity="0.35"/>
+                <rect x="332" y="100" width="32" height="100" rx="3" fill="#2563EB" opacity="0.25"/>
+                <rect x="384" y="55" width="25" height="145" rx="3" fill="#2563EB" opacity="0.6"/>
+
+                <!-- Trend Line -->
+                <polyline points="36,62 88,42 140,82 192,52 244,92 296,72 348,102 396,58" fill="none" stroke="#0F172A" stroke-width="1.5" stroke-dasharray="5,3"/>
+
+                <!-- Labels -->
+                <text x="20" y="215" font-family="Inter,sans-serif" font-size="8" fill="#94A3B8">UP</text>
+                <text x="72" y="215" font-family="Inter,sans-serif" font-size="8" fill="#94A3B8">MH</text>
+                <text x="124" y="215" font-family="Inter,sans-serif" font-size="8" fill="#94A3B8">MP</text>
+                <text x="176" y="215" font-family="Inter,sans-serif" font-size="8" fill="#94A3B8">RJ</text>
+                <text x="228" y="215" font-family="Inter,sans-serif" font-size="8" fill="#94A3B8">AP</text>
+                <text x="280" y="215" font-family="Inter,sans-serif" font-size="8" fill="#94A3B8">TN</text>
+                <text x="332" y="215" font-family="Inter,sans-serif" font-size="8" fill="#94A3B8">GJ</text>
+                <text x="384" y="215" font-family="Inter,sans-serif" font-size="8" fill="#94A3B8">WB</text>
+
+                <!-- Title chip -->
+                <rect x="12" y="8" width="190" height="22" rx="5" fill="#0F172A"/>
+                <text x="22" y="22" font-family="Inter,sans-serif" font-size="9" font-weight="600" fill="white">District Wise Crime Analysis — Power BI</text>
+              </svg>
+            </div>
+
+            <div class="project-details">
+              <div class="project-meta">
+                <span class="project-date">May 2026</span>
+                <span class="project-status-badge status-completed">Completed</span>
+              </div>
+              <h3 class="project-title" id="project1-title">District Wise Crime Analysis</h3>
+              <p class="project-desc">
+                Analyzed India's crime trends, hotspots, and urban-rural patterns across 2017–2022
+                using interactive Power BI dashboards, enabling year-over-year comparison and district-level insights.
+              </p>
+              <ul class="project-contributions">
+                <li>Cleaned, transformed, and modeled crime data using Power Query</li>
+                <li>Developed dynamic dashboards with DAX measures and calculated columns</li>
+                <li>Implemented KPI cards, slicers, and drill-through features</li>
+                <li>Used treemaps, heatmaps, waterfall charts, and trend analysis visuals</li>
+                <li>Enabled year-over-year trend and hotspot analysis across all states</li>
+              </ul>
+              <div class="project-tech-tags">
+                <span class="tech-tag">Power BI</span>
+                <span class="tech-tag">Power Query</span>
+                <span class="tech-tag">DAX</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/nexus9601" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" id="project1-github">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                  View on GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card project-card-reverse reveal-up" aria-labelledby="project2-title">
+            <div class="project-visual project-visual-python">
+              <div class="project-preview-label">Project Preview</div>
+              <svg class="project-preview-svg" viewBox="0 0 420 220" xmlns="http://www.w3.org/2000/svg">
+                <rect width="420" height="220" fill="#F8FAFC"/>
+
+                <!-- Grid -->
+                <line x1="0" y1="44" x2="420" y2="44" stroke="#E2E8F0" stroke-width="0.5"/>
+                <line x1="0" y1="88" x2="420" y2="88" stroke="#E2E8F0" stroke-width="0.5"/>
+                <line x1="0" y1="132" x2="420" y2="132" stroke="#E2E8F0" stroke-width="0.5"/>
+                <line x1="0" y1="176" x2="420" y2="176" stroke="#E2E8F0" stroke-width="0.5"/>
+
+                <!-- Area chart (GIM) -->
+                <polygon points="30,180 80,155 130,140 180,120 230,130 280,100 330,90 380,80 380,195 30,195" fill="#2563EB" opacity="0.08"/>
+                <polyline points="30,180 80,155 130,140 180,120 230,130 280,100 330,90 380,80" fill="none" stroke="#2563EB" stroke-width="2.5" stroke-linejoin="round"/>
+
+                <!-- Data points with labels -->
+                <circle cx="30" cy="180" r="4" fill="#2563EB"/>
+                <circle cx="80" cy="155" r="4" fill="#2563EB"/>
+                <circle cx="130" cy="140" r="4" fill="#2563EB"/>
+                <circle cx="180" cy="120" r="4" fill="#2563EB"/>
+                <circle cx="230" cy="130" r="4" fill="#2563EB"/>
+                <circle cx="280" cy="100" r="4" fill="#2563EB"/>
+                <circle cx="330" cy="90" r="4" fill="#2563EB"/>
+                <circle cx="380" cy="80" r="4" fill="#2563EB"/>
+
+                <!-- Scatter overlay for secondary metric -->
+                <circle cx="50" cy="165" r="3" fill="#64748B" opacity="0.5"/>
+                <circle cx="100" cy="148" r="3" fill="#64748B" opacity="0.5"/>
+                <circle cx="155" cy="128" r="3" fill="#64748B" opacity="0.5"/>
+                <circle cx="205" cy="125" r="3" fill="#64748B" opacity="0.5"/>
+                <circle cx="255" cy="108" r="3" fill="#64748B" opacity="0.5"/>
+                <circle cx="305" cy="94" r="3" fill="#64748B" opacity="0.5"/>
+                <circle cx="355" cy="86" r="3" fill="#64748B" opacity="0.5"/>
+
+                <!-- Axis labels -->
+                <text x="22" y="215" font-family="Inter,sans-serif" font-size="8" fill="#94A3B8">2015</text>
+                <text x="72" y="215" font-family="Inter,sans-serif" font-size="8" fill="#94A3B8">2016</text>
+                <text x="122" y="215" font-family="Inter,sans-serif" font-size="8" fill="#94A3B8">2017</text>
+                <text x="172" y="215" font-family="Inter,sans-serif" font-size="8" fill="#94A3B8">2018</text>
+                <text x="222" y="215" font-family="Inter,sans-serif" font-size="8" fill="#94A3B8">2019</text>
+                <text x="272" y="215" font-family="Inter,sans-serif" font-size="8" fill="#94A3B8">2020</text>
+                <text x="322" y="215" font-family="Inter,sans-serif" font-size="8" fill="#94A3B8">2021</text>
+                <text x="372" y="215" font-family="Inter,sans-serif" font-size="8" fill="#94A3B8">2022</text>
+
+                <!-- Badge -->
+                <rect x="12" y="8" width="195" height="22" rx="5" fill="#0F172A"/>
+                <text x="22" y="22" font-family="Inter,sans-serif" font-size="9" font-weight="600" fill="white">Green India Mission — Python Analysis</text>
+              </svg>
+            </div>
+
+            <div class="project-details">
+              <div class="project-meta">
+                <span class="project-date">June 2026</span>
+                <span class="project-status-badge status-completed">Completed</span>
+              </div>
+              <h3 class="project-title" id="project2-title">Green India Mission Analysis</h3>
+              <p class="project-desc">
+                Analyzed Green India Mission data to identify state-wise and year-wise trends and patterns,
+                converting raw government data into visual insights using Python's data science stack.
+              </p>
+              <ul class="project-contributions">
+                <li>Cleaned and preprocessed raw GIM dataset for analysis</li>
+                <li>Performed exploratory data analysis and statistical summarization</li>
+                <li>Created visualizations to communicate trends and key findings</li>
+                <li>Converted raw GIM data into structured, actionable insights</li>
+              </ul>
+              <div class="project-tech-tags">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Pandas</span>
+                <span class="tech-tag">NumPy</span>
+                <span class="tech-tag">Matplotlib</span>
+                <span class="tech-tag">Seaborn</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/nexus9601" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" id="project2-github">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                  View on GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card reveal-up" aria-labelledby="project3-title">
+            <div class="project-visual project-visual-web">
+              <div class="project-preview-label">Project Preview</div>
+              <svg class="project-preview-svg" viewBox="0 0 420 220" xmlns="http://www.w3.org/2000/svg">
+                <rect width="420" height="220" fill="#0F172A"/>
+
+                <!-- Globe outline -->
+                <circle cx="210" cy="110" r="88" fill="none" stroke="#334155" stroke-width="1"/>
+                <ellipse cx="210" cy="110" rx="88" ry="30" fill="none" stroke="#334155" stroke-width="0.8"/>
+                <ellipse cx="210" cy="110" rx="55" ry="88" fill="none" stroke="#334155" stroke-width="0.8"/>
+                <line x1="122" y1="110" x2="298" y2="110" stroke="#334155" stroke-width="0.8"/>
+                <line x1="210" y1="22" x2="210" y2="198" stroke="#334155" stroke-width="0.8"/>
+
+                <!-- Travel path -->
+                <polyline points="145,95 175,82 200,90 230,78 260,88 285,80" fill="none" stroke="#2563EB" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+
+                <!-- Location pins -->
+                <circle cx="145" cy="95" r="5" fill="#2563EB"/>
+                <circle cx="200" cy="90" r="5" fill="#2563EB"/>
+                <circle cx="260" cy="88" r="5" fill="#2563EB"/>
+
+                <!-- Active pin pulse ring -->
+                <circle cx="260" cy="88" r="10" fill="none" stroke="#2563EB" stroke-width="1" opacity="0.4"/>
+                <circle cx="260" cy="88" r="16" fill="none" stroke="#2563EB" stroke-width="0.5" opacity="0.2"/>
+
+                <!-- UI overlay card -->
+                <rect x="290" y="60" width="115" height="72" rx="6" fill="#1E293B"/>
+                <text x="302" y="78" font-family="Inter,sans-serif" font-size="9" font-weight="600" fill="white">PathBloom</text>
+                <rect x="302" y="84" width="62" height="2" rx="1" fill="#2563EB"/>
+                <text x="302" y="100" font-family="Inter,sans-serif" font-size="8" fill="#94A3B8">3 places visited</text>
+                <text x="302" y="114" font-family="Inter,sans-serif" font-size="8" fill="#94A3B8">Travel log active</text>
+                <rect x="302" y="120" width="40" height="7" rx="2" fill="#2563EB" opacity="0.8"/>
+                <text x="307" y="127" font-family="Inter,sans-serif" font-size="6" fill="white">View Map</text>
+
+                <!-- Badge -->
+                <rect x="12" y="8" width="145" height="22" rx="5" fill="#2563EB"/>
+                <text x="22" y="22" font-family="Inter,sans-serif" font-size="9" font-weight="600" fill="white">PathBloom — In Development</text>
+              </svg>
+            </div>
+
+            <div class="project-details">
+              <div class="project-meta">
+                <span class="project-date">Since June 2026</span>
+                <span class="project-status-badge status-active">In Development</span>
+              </div>
+              <h3 class="project-title" id="project3-title">PathBloom</h3>
+              <p class="project-desc">
+                A modern travel-tracking platform designed to help users visually record and preserve
+                their travel experiences through an interactive 3D globe and rich UI.
+              </p>
+              <ul class="project-contributions">
+                <li>Developing a responsive user interface with clean design</li>
+                <li>Implementing an interactive 3D globe using Mapbox</li>
+                <li>Creating animated landing pages and onboarding flows</li>
+                <li>Building authentication screens and user sessions</li>
+                <li>Establishing a polished UI foundation with core travel visualization</li>
+              </ul>
+              <div class="project-tech-tags">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Mapbox</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://github.com/nexus9601" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" id="project3-github">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                  View on GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         TRAINING SECTION
+    ============================================================ -->
+    <section class="section training-section" id="training" aria-labelledby="training-heading">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-label">Learning & Development</span>
+          <h2 class="section-title" id="training-heading">Training &amp; Certifications</h2>
+        </div>
+
+        <div class="training-cert-grid">
+
+          <!-- Training Card -->
+          <div class="training-block reveal-up">
+            <h3 class="training-block-title">Professional Training</h3>
+            <div class="training-card">
+              <div class="training-card-header">
+                <div class="training-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                </div>
+                <div class="training-header-text">
+                  <h4 class="training-title">Ethical Hacking and Network Security Mastery</h4>
+                  <p class="training-org">Lovely Professional University</p>
+                  <p class="training-period">Jun 2026 – Jul 2026</p>
+                </div>
+              </div>
+              <div class="training-body">
+                <p class="training-desc">
+                  Gained foundational knowledge of cybersecurity, ethical hacking, network security,
+                  and common network protocols through structured coursework.
+                </p>
+                <ul class="training-points">
+                  <li>Developed a device-detection project to identify connected devices and retrieve network details using multiple protocols</li>
+                  <li>Practical understanding of network reconnaissance, device discovery, and protocol-based communication</li>
+                  <li>Applied basic cybersecurity practices and network analysis techniques</li>
+                </ul>
+                <div class="training-tags">
+                  <span class="tech-tag">Network Security</span>
+                  <span class="tech-tag">Ethical Hacking</span>
+                  <span class="tech-tag">Protocols</span>
+                  <span class="tech-tag">Python</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certifications -->
+          <div class="certs-block reveal-up" style="--delay: 0.1s">
+            <h3 class="training-block-title">Certifications</h3>
+            <div class="cert-cards-list">
+
+              <div class="cert-card">
+                <div class="cert-card-left">
+                  <div class="cert-icon cert-icon-blue">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                  </div>
+                </div>
+                <div class="cert-card-body">
+                  <span class="cert-name">Programming with JAVA</span>
+                  <span class="cert-issuer">Lovely Professional University</span>
+                </div>
+                <span class="cert-date">May 2026</span>
+              </div>
+
+              <div class="cert-card">
+                <div class="cert-card-left">
+                  <div class="cert-icon cert-icon-green">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+                  </div>
+                </div>
+                <div class="cert-card-body">
+                  <span class="cert-name">Data Structure and Algorithm</span>
+                  <span class="cert-issuer">Lovely Professional University</span>
+                </div>
+                <span class="cert-date">Jan 2025</span>
+              </div>
+
+              <div class="cert-card">
+                <div class="cert-card-left">
+                  <div class="cert-icon cert-icon-slate">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><path d="M13 6h3a2 2 0 0 1 2 2v7"/><line x1="6" y1="9" x2="6" y2="21"/></svg>
+                  </div>
+                </div>
+                <div class="cert-card-body">
+                  <span class="cert-name">Introduction to Git and GitHub</span>
+                  <span class="cert-issuer">Google</span>
+                </div>
+                <span class="cert-date">Nov 2024</span>
+              </div>
+
+              <div class="cert-card">
+                <div class="cert-card-left">
+                  <div class="cert-icon cert-icon-purple">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+                  </div>
+                </div>
+                <div class="cert-card-body">
+                  <span class="cert-name">Career Essentials in Generative AI</span>
+                  <span class="cert-issuer">Microsoft</span>
+                </div>
+                <span class="cert-date">Aug 2024</span>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         ACHIEVEMENTS SECTION
+    ============================================================ -->
+    <section class="section achievements-section" id="achievements" aria-labelledby="achievements-heading">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-label">Milestones</span>
+          <h2 class="section-title" id="achievements-heading">Achievements</h2>
+        </div>
+
+        <div class="achievements-list">
+
+          <div class="achievement-card reveal-up">
+            <div class="achievement-year">2025</div>
+            <div class="achievement-divider" aria-hidden="true">
+              <div class="achievement-dot"></div>
+              <div class="achievement-line"></div>
+            </div>
+            <div class="achievement-content">
+              <div class="achievement-header">
+                <div class="achievement-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                </div>
+                <div>
+                  <h3 class="achievement-title">Code-A-Haunt 2.0 — Hackathon</h3>
+                  <p class="achievement-subtitle">Feb 2025</p>
+                </div>
+              </div>
+              <p class="achievement-desc">Successfully participated in a 48-hour state-level hackathon conducted at Lovely Professional University.</p>
+            </div>
+          </div>
+
+          <div class="achievement-card reveal-up" style="--delay: 0.1s">
+            <div class="achievement-year">2024</div>
+            <div class="achievement-divider" aria-hidden="true">
+              <div class="achievement-dot"></div>
+              <div class="achievement-line"></div>
+            </div>
+            <div class="achievement-content">
+              <div class="achievement-header">
+                <div class="achievement-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                </div>
+                <div>
+                  <h3 class="achievement-title">Web Designing Course</h3>
+                  <p class="achievement-subtitle">Oct 2024</p>
+                </div>
+              </div>
+              <p class="achievement-desc">Completed four web designing assignments through freeCodeCamp, building a foundation in HTML, CSS, and responsive design principles.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         EDUCATION SECTION
+    ============================================================ -->
+    <section class="section education-section" id="education" aria-labelledby="education-heading">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-label">Academic Background</span>
+          <h2 class="section-title" id="education-heading">Education</h2>
+        </div>
+
+        <div class="education-timeline">
+
+          <div class="edu-card edu-card-current reveal-up">
+            <div class="edu-card-left">
+              <div class="edu-period-badge edu-badge-current">Aug 2024 – Present</div>
+              <div class="edu-degree-type">Undergraduate</div>
+            </div>
+            <div class="edu-card-body">
+              <div class="edu-institution-row">
+                <div class="edu-icon edu-icon-primary">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                </div>
+                <div>
+                  <h3 class="edu-institution">Lovely Professional University</h3>
+                  <p class="edu-location">Punjab, India</p>
+                </div>
+              </div>
+              <p class="edu-degree">B.Tech – Computer Science and Engineering</p>
+              <p class="edu-spec">Specialization: Data Science and Data Engineering</p>
+              <div class="edu-metric">
+                <span class="edu-metric-label">CGPA</span>
+                <span class="edu-metric-value">7.15</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="edu-card reveal-up" style="--delay: 0.1s">
+            <div class="edu-card-left">
+              <div class="edu-period-badge">Apr 2023 – Mar 2024</div>
+              <div class="edu-degree-type">Intermediate (Class XII)</div>
+            </div>
+            <div class="edu-card-body">
+              <div class="edu-institution-row">
+                <div class="edu-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                </div>
+                <div>
+                  <h3 class="edu-institution">Senthil Public School</h3>
+                  <p class="edu-location">Salem, Tamil Nadu, India</p>
+                </div>
+              </div>
+              <p class="edu-degree">Intermediate</p>
+              <div class="edu-metric">
+                <span class="edu-metric-label">Score</span>
+                <span class="edu-metric-value">74%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="edu-card reveal-up" style="--delay: 0.2s">
+            <div class="edu-card-left">
+              <div class="edu-period-badge">Apr 2021 – Mar 2022</div>
+              <div class="edu-degree-type">Secondary (Class X)</div>
+            </div>
+            <div class="edu-card-body">
+              <div class="edu-institution-row">
+                <div class="edu-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+                </div>
+                <div>
+                  <h3 class="edu-institution">Senthil Public School</h3>
+                  <p class="edu-location">Salem, Tamil Nadu, India</p>
+                </div>
+              </div>
+              <p class="edu-degree">Secondary Education</p>
+              <div class="edu-metric">
+                <span class="edu-metric-label">Score</span>
+                <span class="edu-metric-value">82%</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         CONTACT SECTION
+    ============================================================ -->
+    <section class="section contact-section" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="section-header reveal-up">
+          <span class="section-label">Get In Touch</span>
+          <h2 class="section-title" id="contact-heading">Let's Connect</h2>
+          <p class="section-subtitle contact-subtitle">
+            Open to opportunities, collaborations, and conversations around data,
+            technology, and innovative projects.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info reveal-up">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div class="contact-detail">
+                <span class="contact-label">Email</span>
+                <a href="mailto:nallasivamthanush@gmail.com" class="contact-value" id="contact-email-link">nallasivamthanush@gmail.com</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12.7 19.79 19.79 0 0 1 1.62 4.1 2 2 0 0 1 3.6 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.15 6.15l1.27-.9c.62-.44 1.37-.6 2.11-.45a12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div class="contact-detail">
+                <span class="contact-label">Phone</span>
+                <a href="tel:+919942438485" class="contact-value" id="contact-phone-link">+91 9942438485</a>
+              </div>
+            </div>
+
+            <div class="contact-actions">
+              <a href="mailto:nallasivamthanush@gmail.com" class="btn btn-primary" id="contact-email-btn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                Email Me
+              </a>
+              <a href="https://www.linkedin.com/in/thanush-k-296b202bb/" target="_blank" rel="noopener noreferrer" class="btn btn-outline" id="contact-linkedin-btn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                LinkedIn
+              </a>
+              <a href="https://github.com/nexus9601" target="_blank" rel="noopener noreferrer" class="btn btn-outline" id="contact-github-btn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-card reveal-right">
+            <div class="contact-card-inner">
+              <div class="contact-card-header">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                <p class="contact-card-title">Currently seeking</p>
+              </div>
+              <ul class="seeking-list">
+                <li>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                  Data Science / Analytics Internships
+                </li>
+                <li>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                  Data Engineering Opportunities
+                </li>
+                <li>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                  Research Collaborations
+                </li>
+                <li>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                  Open Source Contributions
+                </li>
+                <li>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                  Technical Conversations & Networking
+                </li>
+              </ul>
+              <p class="contact-card-footer">
+                Based in Punjab, India · Open to remote opportunities
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <div class="footer-brand-row">
+          <span class="footer-initials">TK</span>
+          <span class="footer-name">Thanush Kodi N</span>
+        </div>
+        <p class="footer-tagline">Data Science &bull; Data Analytics &bull; Data Engineering</p>
+      </div>
+
+      <div class="footer-socials" aria-label="Footer social links">
+        <a href="https://github.com/nexus9601" target="_blank" rel="noopener noreferrer" class="footer-social-link" id="footer-github" aria-label="GitHub">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/thanush-k-296b202bb/" target="_blank" rel="noopener noreferrer" class="footer-social-link" id="footer-linkedin" aria-label="LinkedIn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        <a href="mailto:nallasivamthanush@gmail.com" class="footer-social-link" id="footer-email" aria-label="Email">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </a>
+      </div>
+
+      <p class="footer-copy">&copy; 2026 Thanush Kodi N. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
